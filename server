@@ -1,0 +1,11 @@
+[33mcommit e74bb9b0c15814341039fbfb4324fc790ce80d57[m[33m ([m[1;36mHEAD -> [m[1;32mquote[m[33m)[m
+Author: Alanoud <alanoud2@andrew.cmu.edu>
+Date:   Wed Jan 25 22:56:30 2023 +0300
+
+    Quote model scaffolded; db minor edits
+
+[33mcommit 35be8d7a492494e3241b6e546858ef31866e7c94[m[33m ([m[1;32mmain[m[33m)[m
+Author: Alanoud <alanoud2@andrew.cmu.edu>
+Date:   Wed Jan 25 22:31:46 2023 +0300
+
+    Created a base rails app

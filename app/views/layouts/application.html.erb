@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SimpleQuotes</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+     <title>Quips and Quotes :: <%= controller.controller_name.capitalize %></title>
+     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
-  </head>
+     <!-- #stylesheet: add my_styles using rails helper function# -->
 
-  <body>
-    <%= yield %>
-  </body>
+     <%= javascript_include_tag 'application' %>
+     <%= csrf_meta_tag %>
+   </head>
+
+   <body>
+     <div id="wrap">
+       <div id="header">
+         <%= link_to(image_tag('quips_n_quotes.png'), home_path) %>
+        </div>
+        <br />
+
+        <div id="body">
+          <%= yield %>
+        </div>
+
+        <!-- #footer partial should go here later (but not yet...)# -->
+
+     </div>
+   </body>
 </html>
